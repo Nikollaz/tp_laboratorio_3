@@ -1,0 +1,69 @@
+﻿================================ FRONT END ===================================
+CAMBIAR:
+
+1) 6 COCHERAS
+2) 3 PISOS
+3) 6 COCHERAS POR PISO
+4) 1 AUTO POR COCHERA (AGREGAR FLAG DE "OCUPADO" A COCHERA)
+5) 3 COCHERAS PARA DISCAPACITADOS EN PRIMER PISO
+6) A LA ENTRADA TIENE QUE PREGUNTAR SI ES DISCAPACITADO
+7) HACER UN SERVICIO QUE TRAIGA COCHERAS DISCAPACITADOS/NO DISCAPACITADOS
+8) SI ESTA OCUPADA LAS DE DISCAPACITADOS, SE ENVIAN A UNA COMUN
+
+9) USAR TODOS LOS SERVICIOS DEL BACK
+10) SI EL USUARIO ESTA SUSPENDIDO NO PUEDE LOGEARSE
+11) SERVICIO QUE TRAIGA LA INFORMACION DE TODAS LAS COCHERAS
+12) CAMBIARLE EL NOMBRE A LAS KEYS A LAS TABLAS
+
+13) HACER DOCUMENTACION DL FRONT, FONTS, COLORES, VALIDACIONES USADAS Y POR QUE, UTILIZACION DE ICONO, 
+FRAMEWORKS USADOS Y POR QUE. (FRONT END)
+
+================================ BACK END ===================================
+
+==========================================================================================================
+
+(Ok)	1 - WEB hosting -- REQUISITO EXCLUYENTE
+(OK)	2 - ABM - WEB SERVICE -POO- PDO (Administrador - Empleados)
+(OK)	3 - ABM - API Rest - PDO (resto de las acciones).
+(OK)	4 - ABM - VEHÍCULOS
+(OK)	5 - LISTADO - EMPLEADOS (fecha logueo - cant. Operaciones - suspensión - borrado)
+(OK)	6 - LISTADO - COCHERAS (+ usada; - usada; sin usar)
+(OK)	7 - LISTADO - AUTOS (cochera?; hora ini; hora fin; importe).
+
+==========================================================================================================
+
+
+14) Agregar logica de "discapacitado: true/false" a la hora de "entrada de vehiculo"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+============== PARA HORARIO CORRECTO EN SERVIDOR =================
+
+ANTES DE PEDIR time():
+
+date_default_timezone_set('America/Argentina/Buenos_Aires');
+
+y en SQL:
+
+"SET time_zone = '-3:00';"
