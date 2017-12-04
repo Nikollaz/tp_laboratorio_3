@@ -33,12 +33,6 @@ FRAMEWORKS USADOS Y POR QUE. (FRONT END)
 ==========================================================================================================
 
 
-14) Agregar logica de "discapacitado: true/false" a la hora de "entrada de vehiculo"
-
-
-
-
-
 
 
 
