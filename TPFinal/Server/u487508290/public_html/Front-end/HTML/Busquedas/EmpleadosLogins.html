@@ -1,0 +1,34 @@
+<div class='container tableContainer'>
+  <h1>Filtros: </h1>
+  <br>
+  <form>
+    <div class="form-group">
+        <label for="fechaInicio">Fecha de inicio:</label>
+        <input type="date" class="form-control" id="fechaInicio" placeholder="Fecha de inicio:">
+    </div>
+    <div class="form-group"></div>
+    <div class="form-group">
+        <label for="fechaFin">Fecha de fin:</label>
+        <input type="date" class="form-control" id="fechaFin" placeholder="Fecha de fin:">
+    </div>
+    <input type="button" class="btn btn-default" value="Filtrar" id="btnFiltrar">
+  </form>
+    <h1>Logins empleados: </h1>
+    <br>
+    <div id='carga'></div>
+    
+    <div class="table-responsive tablaVehiculos" id='tablaVehiculos'>
+        <table id="tablaLogins" class='table table-striped table-bordered table-hover table-condensed'>
+            <thead class="tablaVehiculosHeader" id='tablaVehiculosHeader'>
+                <tr>
+                    <th>Empleado</th>
+                    <th>Fecha</th>
+                </tr>
+            </thead>
+            <tbody id='loginsEmpleados'>
+    
+            </tbody>
+        </table> 
+    </div>
+
+</div>

@@ -1,0 +1,344 @@
+input[type=email], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
+    transition: color 0.3s;
+    color: #fff;
+    background-color: transparent;
+}
+
+.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
+    transition: color 0.3s;
+    color: #fff;
+    background-color: transparent;
+}
+
+.navbar-inverse{
+    background-color: rgba(0,0,0,0);
+    transition: background 0.3s linear;
+    border:none;
+}
+
+.navbar-inverse:hover{
+    background-color: rgba(0,0,0,0.8);
+}
+
+.navbar-inverse:focus{
+    background-color: rgba(0,0,0,0.8);
+}
+
+.containerLogin{
+    max-width: 100%;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: rgb(63,136,200);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:active{
+    transform: translateY(2px);
+}
+
+button:focus{
+    outline:0;
+    opacity: 0.8;
+}
+
+.loginBtn{
+    min-width: 30%;
+}
+
+.testBtn{
+    background-color: rgb(102,207,238);
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+.lockIcon{
+    max-width: 100%;
+    padding-top: 6%;
+}
+
+.lockIconContainer{
+    position: relative;
+    float: left;
+    max-width: 9%;
+    padding-right: 6%;
+}
+
+@media (max-width: 640px){
+    .appTitle{ display: none }
+    .lockIconContainer {
+        position: relative;
+        float: left;
+        max-width: 50%;
+        padding: 25%;
+    }
+    .modal-title{
+        overflow: auto;
+    }
+}
+
+img.avatar {
+    max-width: 30%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 5%;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: block; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    /*background-color: rgb(0,0,0); /* Fallback color */ 
+    /*background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    background-image: url("../Resources/WP2.jpg");
+    background-size: 100%;
+    padding-top: 60px;
+}
+
+.modal-title{
+    font-family: sans-serif; 
+    color: white;
+    background: rgb(91,90,147); /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient( rgb(91,90,147), rgb(36,37,67) ); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient( rgb(91,90,147), rgb(36,37,67)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient( rgb(91,90,147), rgb(36,37,67)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient( rgb(91,90,147), rgb(36,37,67)); /* Standard syntax */
+    margin: 0px;
+    padding: 5%;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 50%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+
+.globalBody{
+    background-image: url("../Resources/blur_edges.jpg");
+    background-repeat: no-repeat;
+    background-color: #000;
+    background-size: 100%;
+    min-height: 800px;
+}
+
+.tableContainer{
+    width:100%;
+    background-color: rgba(255,255,255,0.5);
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.container{
+    padding: 2%;
+}
+
+.tablaVehiculos{
+    border-radius: 10px;
+    box-shadow: none;
+    transition: box-shadow 0.3s;
+    background-color: white;
+    padding: 15px;
+}
+
+.tablaVehiculos:hover{
+    box-shadow: 3px 3px 12px gray;
+}
+
+.tablaVehiculosHeader{
+    background-color: rgb(41,43,44);
+    color: white;
+}
+
+.tablaEmpleados{
+    border-radius: 10px;
+    box-shadow: none;
+    transition: box-shadow 0.3s;
+    background-color: white;
+    padding: 15px;
+}
+
+.tablaEmpleados:hover{
+    box-shadow: 3px 3px 12px gray;
+}
+
+.tablaEmpleadosHeader{
+    background-color: rgb(41,43,44);
+    color: white;
+}
+
+.tablaCocheras{
+    border-radius: 10px;
+    box-shadow: none;
+    transition: box-shadow 0.3s;
+    background-color:white;
+    padding: 15px;
+}
+
+.tablaCocheras:hover{
+    box-shadow: 3px 3px 12px gray;
+}
+
+.tablaCocherasHeader{
+    background-color: rgb(41,43,44);
+    color: white;
+}
+
+.entradaForm{
+    width: 50%;
+    margin: 0% 25%;
+    background-color: rgba(255,255,255,0.5);
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.salidaForm{
+    width: 50%;
+    margin: 0% 25%;
+    background-color: rgba(255,255,255,0.5);
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.botonGrilla{
+    background-color: rgb(41,43,44);
+    border-color: rgb(41,43,44);
+    box-shadow: none !important;
+}
+
+.botonGrilla:focus, .botonGrilla:hover{
+    background-color: rgb(90,90,90);
+}
+
+.grillasContainer{
+    width: 100%;
+}
+
+.logOutButton{
+    color: white !important;
+}
+
+.logOutButton:focus,.logOutButton:hover{
+    background-color: #c9302c !important;
+}
+
+.table{
+    margin-bottom: 0px !important;
+}
+
+.appFooter {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+}
+
+.footerData{
+    padding:5px;
+    margin: 0px;
+}
+
+.appFooter .appFooter:focus, .appFooter .appFooter:hover {
+    transition: color 0.3s;
+    color: #fff;
+    background-color: transparent;
+}
+
+.appFooter{
+    background-color: rgba(0,0,0,0);
+    transition: background 0.3s linear;
+    border:none;
+}
+
+.appFooter:hover{
+    background-color: rgba(0,0,0,0.8);
+}
